@@ -49,7 +49,6 @@ var readFileAndMakeItFunny = function(filePath, callback) {
     }
     var funnyFile = file.split('\n')
       .map(function(line) {
-        console.log(line);
         return line + ' lol';
       })
       .join('\n');
